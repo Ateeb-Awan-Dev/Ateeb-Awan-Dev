@@ -2,25 +2,45 @@ import express from "express";
 import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-dotenv.config({ path: path.join(__dirname, "..", ".env.local") });
+const projectRoot = path.resolve(__dirname, "..");
+const envLocalCandidates = [
+  path.join(projectRoot, ".env.local"),
+  path.join(process.cwd(), ".env.local"),
+];
+for (const envPath of envLocalCandidates) {
+  if (fs.existsSync(envPath)) {
+    dotenv.config({ path: envPath });
+    break;
+  }
+}
 
 const PORT = Number(process.env.PORT || 5050);
 
-const SMTP_USER = process.env.SMTP_USER;
-const SMTP_PASS = process.env.SMTP_PASS;
+const SMTP_USER = (
+  process.env.SMTP_USER ||
+  process.env.GMAIL_USER ||
+  ""
+).trim();
+const SMTP_PASS = (
+  process.env.SMTP_PASS ||
+  process.env.SMTP_PASSWORD ||
+  process.env.GMAIL_APP_PASSWORD ||
+  ""
+).trim();
 const CONTACT_TO = process.env.CONTACT_TO || SMTP_USER;
 const CONTACT_FROM = process.env.CONTACT_FROM || SMTP_USER;
 
 if (!SMTP_USER || !SMTP_PASS) {
   // eslint-disable-next-line no-console
   console.warn(
-    "[mail] Missing SMTP_USER/SMTP_PASS. Add them to .env.local (see .env.example)."
+    "[mail] Missing SMTP credentials. Add SMTP_USER and SMTP_PASS to .env.local at the project root (see .env.example), then restart the API (npm run dev or npm run dev:server). Aliases: GMAIL_USER, SMTP_PASSWORD, GMAIL_APP_PASSWORD."
   );
 }
 
@@ -52,7 +72,8 @@ app.post("/api/contact", async (req, res) => {
     if (!SMTP_USER || !SMTP_PASS) {
       return res.status(500).json({
         ok: false,
-        error: "Mail server is not configured. Missing SMTP credentials.",
+        error:
+          "Mail server is not configured. Add SMTP_USER and SMTP_PASS to .env.local in the project root, then restart the dev server so the API picks them up.",
       });
     }
 
