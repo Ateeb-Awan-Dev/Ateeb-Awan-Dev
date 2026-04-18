@@ -1,33 +1,81 @@
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                     HERO SECTION                      -->
+<!-- ██████████████████████████████████████████████████████ -->
+
 <div align="center">
 
-<!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Ateeb+Awan+%F0%9F%91%8B;Full+Stack+MERN+%2B+Next.js+Dev;Building+products+that+actually+work." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=44&pause=99999&color=FFFFFF&center=true&vCenter=true&width=700&height=80&lines=Muhammad+Ateeb+Awan" alt="Name"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=2000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%E2%80%94+MERN+%2B+Next.js;I+build+web+products+that+actually+work.;Clean+code+today+%3D+easy+updates+tomorrow." alt="Role Typing"/>
+
+<br/><br/>
+
+<!-- Status Badges Row -->
+<img src="https://img.shields.io/badge/%F0%9F%9F%A2%20AVAILABLE%20FOR%20WORK-00c853?style=for-the-badge&labelColor=0d1117" alt="Available"/>
+&nbsp;
+<img src="https://img.shields.io/badge/%F0%9F%93%8D%20Pakistan-1e293b?style=for-the-badge" alt="Location"/>
+&nbsp;
+<img src="https://img.shields.io/badge/%E2%9A%A1%20Replies%20within%2024h-1e293b?style=for-the-badge" alt="Reply Time"/>
+
+<br/><br/>
+
+<!-- Navigation Links -->
+[![Portfolio](https://img.shields.io/badge/🌐%20PORTFOLIO-0f172a?style=for-the-badge)](https://ateeb-awan-dev.vercel.app/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/💻%20GITHUB-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ateeb-Awan-Dev)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/🔗%20LINKEDIN-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/muhammad-ateeb-awan/)
+&nbsp;
+[![Email](https://img.shields.io/badge/📧%20EMAIL-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:ateebawan80@gmail.com)
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Ateeb-Awan-Dev&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=Ateeb-Awan-Dev&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS&labelColor=0f172a" alt="Profile Views"/>
 
 </div>
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                   ABOUT SECTION                       -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 🚀 About Me
 
-```ts
-const ateeb = {
-  name: "Muhammad Ateeb Awan",
-  role: "Full Stack Developer (MERN + Next.js)",
-  experience: "3+ Years",
-  location: "Pakistan 🇵🇰",
-  stack: ["React", "Next.js", "Node.js", "Express", "MongoDB", "TypeScript"],
-  currentlyBuilding: "Scalable, production-ready web apps",
-  funFact: "I turn chai ☕ into clean, working code.",
+```typescript
+const ateeb: Developer = {
+  name        : "Muhammad Ateeb Awan",
+  role        : "Full Stack Developer — MERN + Next.js",
+  experience  : "3+ Years",
+  location    : "Pakistan 🇵🇰",
+  email       : "ateebawan80@gmail.com",
+  linkedin    : "linkedin.com/in/muhammad-ateeb-awan",
+  portfolio   : "ateeb-awan-dev.vercel.app",
+
+  stack: {
+    frontend  : ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+    backend   : ["Node.js", "Express.js", "REST APIs", "JWT Auth"],
+    database  : ["MongoDB", "PostgreSQL", "MySQL"],
+    devops    : ["Docker", "Vercel", "GitHub Actions", "Nginx"],
+  },
+
+  currentlyBuilding : "Scalable, production-ready full-stack web apps",
+  funFact           : "I turn chai ☕ into clean, working code — daily.",
 };
 ```
 
-> 💡 I help businesses and developers build **fast, reliable, and scalable** web products — from database to UI. Clean code today. Easy updates tomorrow.
+> 💡 I help businesses build **fast, reliable, and scalable** web products — from database to UI.
+> **Clean code today = easy updates tomorrow.**
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                   TECH STACK                          -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 🛠️ Tech Stack & Tools
 
@@ -36,14 +84,17 @@ const ateeb = {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0f172a?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### ⚙️ Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 ### 🚀 DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -51,123 +102,213 @@ const ateeb = {
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  SERVICES SECTION                     -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 🏗️ Services I Offer
 
-| 🔧 Service | 💡 What You Get |
-|---|---|
-| 🌐 **Full-Stack Web App Development** | Complete applications from database to UI — built to handle real users |
-| ⚡ **Next.js Business Websites** | Fast, SEO-friendly websites that help visitors trust you and take action |
-| ⚛️ **React Frontend Development** | Beautiful, responsive interfaces that work smoothly on every device |
-| 📊 **Admin Dashboards & Internal Tools** | Custom dashboards so your team can manage operations without spreadsheets |
-| 🔗 **API & Third-Party Integration** | Connect payment systems, email tools, auth providers — reliably |
-| 🔨 **Maintenance & Feature Development** | Ongoing support, bug fixes, and new features after your product launches |
+> *Everything you need to go from idea → live product*
 
----
+| &nbsp; | Service | What You Get |
+|:---:|---|---|
+| 🌐 | **Full-Stack Web App Development** | Complete applications from database to UI — built to handle real users |
+| ⚡ | **Next.js Business Websites** | Fast, SEO-friendly websites that help visitors trust you and take action |
+| ⚛️ | **React Frontend Development** | Beautiful, responsive interfaces that work smoothly on every device |
+| 📊 | **Admin Dashboards & Internal Tools** | Custom dashboards so your team can manage operations without spreadsheets |
+| 🔗 | **API & Third-Party Integration** | Connect payment systems, email tools, auth providers — reliably |
+| 🔨 | **Maintenance & Feature Development** | Ongoing support, bug fixes, and new features after your product launches |
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  PROJECTS SECTION                     -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 🌟 Featured Projects
 
 <table>
   <tr>
-    <td width="50%">
-      <h3 align="center">🏥 PhysioVibe</h3>
-      <p align="center">
+    <td width="33%">
+      <h3 align="center">💆 PhysioVibe</h3>
+      <div align="center">
         <a href="https://physio-vibe.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/Live-Demo-00D9FF?style=for-the-badge&logo=vercel" alt="Live Demo"/>
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
         </a>
-      </p>
-      <p align="center">A modern physiotherapy platform built with Next.js & TypeScript. Features appointment booking, patient management, and a clean, accessible UI.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js"/>
-        <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript"/>
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css"/>
-      </p>
+      </div>
+      <br/>
+      <p>A modern <strong>physiotherapy platform</strong> built with Next.js & TypeScript. Features appointment booking, patient management, and a clean accessible UI.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+      </div>
     </td>
-    <td width="50%">
+    <td width="33%">
       <h3 align="center">🏥 CoreSurgix</h3>
-      <p align="center">
+      <div align="center">
         <a href="https://core-surgix.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/Live-Demo-00D9FF?style=for-the-badge&logo=vercel" alt="Live Demo"/>
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
         </a>
-      </p>
-      <p align="center">A surgical services web application with a professional medical design. Built for real-world healthcare businesses needing an online presence.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js"/>
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb"/>
-      </p>
+      </div>
+      <br/>
+      <p>A <strong>surgical services web app</strong> with professional medical design. Built for real-world healthcare businesses needing a reliable online presence.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
+      </div>
+    </td>
+    <td width="33%">
+      <h3 align="center">🧠 NeuroWeave Clinic</h3>
+      <div align="center">
+        <a href="https://neuro-weave-clinic.vercel.app/" target="_blank">
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+        </a>
+      </div>
+      <br/>
+      <p>A <strong>neurology clinic platform</strong> with a modern medical UI, service showcase, and patient-focused design for a specialist healthcare provider.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+      </div>
     </td>
   </tr>
 </table>
 
-> 🔗 **Portfolio:** [ateeb-awan-dev.vercel.app](https://ateeb-awan-dev.vercel.app/)
+<div align="center">
 
----
+🔗 **See all projects →** [ateeb-awan-dev.vercel.app](https://ateeb-awan-dev.vercel.app/)
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  GITHUB STATS                         -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 📊 GitHub Stats & Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ateeb-Awan-Dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ateeb-Awan-Dev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ateeb-Awan-Dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" width="49%" alt="GitHub Stats"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ateeb-Awan-Dev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="40%" alt="Top Languages"/>
 
 </div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ateeb-Awan-Dev&theme=tokyonight&hide_border=true&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=00D9FF" width="70%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ateeb-Awan-Dev&theme=tokyonight&hide_border=true&background=0d1117&stroke=38bdf8&ring=38bdf8&fire=FF6B35&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&sideNums=e2e8f0&currStreakNum=ffffff" width="65%" alt="GitHub Streak"/>
 
 </div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ateeb-Awan-Dev&theme=tokyo-night&hide_border=true&area=true&color=00d9ff&line=00d9ff&point=ffffff" width="95%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ateeb-Awan-Dev&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff" width="95%" alt="Contribution Graph"/>
 
 </div>
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  VALUE PROPOSITION                    -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 💼 What I Bring to the Table
 
-| ✅ What I Offer | 🚀 Why It Matters For You |
-|---|---|
-| ⚡ Fast-loading websites (under 1 second) | Your customers don't wait. Fast sites = more sales |
-| ♿ Accessible to everyone | Reach more users, meet compliance, win enterprise deals |
-| 🔐 Secure authentication & data handling | Your users' data stays safe. Period |
-| 📱 Works on every device | Your customers are mobile — your site should be too |
-| 🧠 SEO-optimized structure | Google finds you. Organic traffic. No ad spend |
-| 📖 Clean, documented codebase | Any future developer can pick up where I left off |
+| &nbsp; | What I Offer | Why It Matters For You |
+|:---:|---|---|
+| ⚡ | **Fast-loading websites (under 1 second)** | Your customers don't wait. Fast sites = more conversions |
+| ♿ | **Accessible to everyone** | Reach more users, meet compliance, win enterprise deals |
+| 🔐 | **Secure auth & data handling** | Your users' data stays safe. Period |
+| 📱 | **Works on every device** | Your customers are mobile — your site should be too |
+| 🧠 | **SEO-optimized structure** | Google finds you. Organic traffic. No ad spend needed |
+| 📖 | **Clean, documented codebase** | Any future developer can pick up where I left off |
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  HOW I WORK                           -->
+<!-- ██████████████████████████████████████████████████████ -->
+
+## ⚙️ How I Work
+
+```
+📋 Understand  →  🎨 Design  →  💻 Build  →  🧪 Test  →  🚀 Deploy  →  🔧 Support
+ Requirements      & Plan       & Iterate     & Review    & Monitor      & Maintain
+```
+
+> **No guesswork. No surprises. Just structured, professional delivery.**
+> Clear scope upfront → weekly progress updates → production-ready code.
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  CONTACT / CTA                        -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 ## 🤝 Let's Work Together
 
 <div align="center">
 
-**Open for:** Freelance Projects • Custom Work • Full-Time Roles • Startup Collaborations
+**Open for:** &nbsp;`Freelance Projects`&nbsp; • &nbsp;`Custom Work`&nbsp; • &nbsp;`Full-Time Roles`&nbsp; • &nbsp;`Startup Collaborations`
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ateeb--awan--dev.vercel.app-00D9FF?style=for-the-badge)](https://ateeb-awan-dev.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Ateeb--Awan--Dev-181717?style=for-the-badge&logo=github)](https://github.com/Ateeb-Awan-Dev)
+| 🔗 | Contact |
+|:---:|:---|
+| 🌐 | [ateeb-awan-dev.vercel.app](https://ateeb-awan-dev.vercel.app/) |
+| 💼 | [linkedin.com/in/muhammad-ateeb-awan](https://www.linkedin.com/in/muhammad-ateeb-awan/) |
+| 📧 | [ateebawan80@gmail.com](mailto:ateebawan80@gmail.com) |
+| 🐙 | [github.com/Ateeb-Awan-Dev](https://github.com/Ateeb-Awan-Dev) |
 
 <br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐%20View%20Portfolio-0f172a?style=for-the-badge)](https://ateeb-awan-dev.vercel.app/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/💼%20Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ateeb-awan/)
+&nbsp;
+[![Email](https://img.shields.io/badge/📧%20Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ateebawan80@gmail.com)
+
+<br/><br/>
 
 > 💬 *Whether you're launching a new product, fixing a broken codebase, or need a reliable developer on your team — I'm here.*
 >
-> **Drop me a message and I'll respond within 24 hours.**
+> **Drop me a message. I reply within 24 hours. ⚡**
 
-</div>
+<br/>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-<div align="center">
+<br/>
 
 *"Building web products that work — for businesses that care."*
 
-⭐ **If you find my work helpful, consider starring my repos!**
+<br/>
+
+⭐ **If my work helped you, consider starring a repo — it keeps me motivated to keep building!** ⭐
 
 </div>
