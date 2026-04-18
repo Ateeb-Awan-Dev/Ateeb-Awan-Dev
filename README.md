@@ -1,32 +1,31 @@
-<!-- ██████████████████████████████████████████████████████ -->
-<!--                     HERO SECTION                      -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ANIMATED HERO BANNER                      -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=44&pause=99999&color=FFFFFF&center=true&vCenter=true&width=700&height=80&lines=Muhammad+Ateeb+Awan" alt="Name"/>
+<!--
+  HERO BANNER — Paste this SVG into your special repo as:
+  /hero-banner.svg  (already provided separately)
+  Then reference it below OR use the raw GitHub URL after uploading.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=2000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%E2%80%94+MERN+%2B+Next.js;I+build+web+products+that+actually+work.;Clean+code+today+%3D+easy+updates+tomorrow." alt="Role Typing"/>
+  HOW TO USE:
+  1. Upload hero-banner.svg to your Ateeb-Awan-Dev/Ateeb-Awan-Dev repo root
+  2. The img tag below will display it automatically
+-->
+
+<img src="./hero-banner.svg" width="100%" alt="Muhammad Ateeb Awan — Full Stack Developer"/>
 
 <br/><br/>
 
-<!-- Status Badges Row -->
-<img src="https://img.shields.io/badge/%F0%9F%9F%A2%20AVAILABLE%20FOR%20WORK-00c853?style=for-the-badge&labelColor=0d1117" alt="Available"/>
-&nbsp;
-<img src="https://img.shields.io/badge/%F0%9F%93%8D%20Pakistan-1e293b?style=for-the-badge" alt="Location"/>
-&nbsp;
-<img src="https://img.shields.io/badge/%E2%9A%A1%20Replies%20within%2024h-1e293b?style=for-the-badge" alt="Reply Time"/>
-
-<br/><br/>
-
-<!-- Navigation Links -->
+<!-- Navigation Link Badges -->
 [![Portfolio](https://img.shields.io/badge/🌐%20PORTFOLIO-0f172a?style=for-the-badge)](https://ateeb-awan-dev.vercel.app/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/💻%20GITHUB-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ateeb-Awan-Dev)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/🔗%20LINKEDIN-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/muhammad-ateeb-awan/)
+[![LinkedIn](https://img.shields.io/badge/🔗%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ateeb-awan/)
 &nbsp;
-[![Email](https://img.shields.io/badge/📧%20EMAIL-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:ateebawan80@gmail.com)
+[![Email](https://img.shields.io/badge/📧%20EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ateebawan80@gmail.com)
 
 <br/>
 
@@ -38,44 +37,83 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
-<!--                   ABOUT SECTION                       -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                  ABOUT ME — STRONG                     -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 🚀 About Me
 
+<table>
+<tr>
+<td width="55%">
+
+### Who Am I?
+
+I'm a **Full Stack Developer** with **3+ years** of hands-on experience building real, production-grade web applications — not just demos.
+
+I specialize in the **MERN stack + Next.js + TypeScript**, and I'm equally strong on **frontend and backend**. That means I can take your idea from a blank screen all the way to a deployed, scalable product.
+
+🎯 **What I actually do:**
+- Build **complete web apps** — from database schema to pixel-perfect UI
+- Write **clean, typed TypeScript** code that your future self will thank you for
+- Deliver **fast-loading, SEO-optimized, mobile-first** experiences
+- Integrate **third-party APIs, payment systems, and auth providers** seamlessly
+- Set up **CI/CD pipelines, Docker environments, and production deployments**
+
+> 💡 *"I don't just write code — I build products that solve real business problems."*
+
+</td>
+<td width="45%">
+
 ```typescript
 const ateeb: Developer = {
-  name        : "Muhammad Ateeb Awan",
-  role        : "Full Stack Developer — MERN + Next.js",
-  experience  : "3+ Years",
-  location    : "Pakistan 🇵🇰",
-  email       : "ateebawan80@gmail.com",
-  linkedin    : "linkedin.com/in/muhammad-ateeb-awan",
-  portfolio   : "ateeb-awan-dev.vercel.app",
+  name       : "Muhammad Ateeb Awan",
+  role       : "Full Stack Dev (MERN + Next.js)",
+  experience : "3+ Years",
+  location   : "Pakistan 🇵🇰",
 
   stack: {
-    frontend  : ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
-    backend   : ["Node.js", "Express.js", "REST APIs", "JWT Auth"],
-    database  : ["MongoDB", "PostgreSQL", "MySQL"],
-    devops    : ["Docker", "Vercel", "GitHub Actions", "Nginx"],
+    frontend : ["React", "Next.js", "TypeScript",
+                "Tailwind CSS", "Redux"],
+    backend  : ["Node.js", "Express.js",
+                "REST APIs", "JWT Auth"],
+    database : ["MongoDB", "PostgreSQL"],
+    devops   : ["Docker", "Vercel",
+                "GitHub Actions"],
   },
 
-  currentlyBuilding : "Scalable, production-ready full-stack web apps",
-  funFact           : "I turn chai ☕ into clean, working code — daily.",
+  contact: {
+    email    : "ateebawan80@gmail.com",
+    linkedin : "muhammad-ateeb-awan",
+    portfolio: "ateeb-awan-dev.vercel.app",
+  },
+
+  funFact: "chai ☕ → clean code. Daily.",
 };
 ```
 
-> 💡 I help businesses build **fast, reliable, and scalable** web products — from database to UI.
-> **Clean code today = easy updates tomorrow.**
+</td>
+</tr>
+</table>
+
+### 📌 What Makes Me Different
+
+| | Skill | Level |
+|:---:|---|---|
+| ⚛️ | React & Next.js — production apps, SSR, SSG, API routes | `████████████ Expert` |
+| 🟦 | TypeScript — strictly typed, scalable architecture | `███████████░ Advanced` |
+| 🟢 | Node.js + Express — REST APIs, middleware, auth | `███████████░ Advanced` |
+| 🍃 | MongoDB + PostgreSQL — schema design, optimization | `██████████░░ Advanced` |
+| 🐳 | Docker + CI/CD — containerized, automated deploys | `████████░░░░ Solid` |
+| 🎨 | UI/UX — responsive, accessible, pixel-perfect design | `███████████░ Advanced` |
 
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
-<!--                   TECH STACK                          -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                  TECH STACK                           -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 🛠️ Tech Stack & Tools
 
@@ -108,9 +146,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  SERVICES SECTION                     -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 🏗️ Services I Offer
 
@@ -129,9 +167,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  PROJECTS SECTION                     -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 🌟 Featured Projects
 
@@ -141,7 +179,7 @@ const ateeb: Developer = {
       <h3 align="center">💆 PhysioVibe</h3>
       <div align="center">
         <a href="https://physio-vibe.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge" alt="Live Demo"/>
         </a>
       </div>
       <br/>
@@ -156,7 +194,7 @@ const ateeb: Developer = {
       <h3 align="center">🏥 CoreSurgix</h3>
       <div align="center">
         <a href="https://core-surgix.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge" alt="Live Demo"/>
         </a>
       </div>
       <br/>
@@ -171,7 +209,7 @@ const ateeb: Developer = {
       <h3 align="center">🧠 NeuroWeave Clinic</h3>
       <div align="center">
         <a href="https://neuro-weave-clinic.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+          <img src="https://img.shields.io/badge/🚀%20Live%20Demo-38bdf8?style=for-the-badge" alt="Live Demo"/>
         </a>
       </div>
       <br/>
@@ -195,9 +233,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  GITHUB STATS                         -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats & Activity
 
@@ -229,9 +267,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  VALUE PROPOSITION                    -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 💼 What I Bring to the Table
 
@@ -248,9 +286,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  HOW I WORK                           -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## ⚙️ How I Work
 
@@ -266,9 +304,9 @@ const ateeb: Developer = {
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
 
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--                  CONTACT / CTA                        -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
 ## 🤝 Let's Work Together
 
