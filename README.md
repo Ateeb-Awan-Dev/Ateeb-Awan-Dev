@@ -115,7 +115,7 @@ const ateeb: Developer = {
 ### 📊 Skill Levels
 
 ```
-⚛️  React & Next.js     ████████████████████  Expert    (3+ yrs, 10+ projects)
+⚛️  React & Next.js      ████████████████████  Expert    (3+ yrs, 40+ projects)
 🟦  TypeScript           ███████████████████░  Advanced  (strict mode always on)
 🟢  Node.js + Express    ███████████████████░  Advanced  (REST APIs, middleware)
 🍃  MongoDB + PostgreSQL ██████████████████░░  Advanced  (schema design, queries)
